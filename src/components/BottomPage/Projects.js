@@ -1,9 +1,9 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import Cards from "../Cards/Cards";
-import fuck from "../images/development.png";
-import bitch from "../images/ux.png";
-import shit from "../images/github.png";
+import dev from "../images/development.png";
+import ui from "../images/ux.png";
+import githubP from "../images/github.png";
 import {
   AiFillHome,
   AiTwotonePhone,
@@ -58,17 +58,17 @@ function Projects() {
               <Cards
                 title="Mobile Developer"
                 body="For now I have only created a few small mobile applications using React Native. Since I am in the process of learning Java through school, I would like to dive into developing android apps."
-                Img={fuck}
+                Img={dev}
               />
               <Cards
                 title="Web Developer"
                 body="Currently, if I'm not in school or working, I am working on improving my web development skills along with my knowledge of all things web development. "
-                Img={bitch}
+                Img={ui}
               />
               <Cards
                 title="Open-source Contributor"
                 body="If you'd like, you can check out my github. This is where I spend a majority of my time admiring other peoples skills and dedication."
-                Img={shit}
+                Img={githubP}
               />
             </div>
             <div className="project-section">
