@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import Cards from "../Cards/Cards";
 import dev from "../images/development.png";
-import ui from "../images/ux.png";
+import uix from "../images/ux.png";
 import githubP from "../images/github.png";
 import {
   AiFillHome,
@@ -63,7 +63,7 @@ function Projects() {
               <Cards
                 title="Web Developer"
                 body="Currently, if I'm not in school or working, I am working on improving my web development skills along with my knowledge of all things web development. "
-                Img={ui}
+                Img={uix}
               />
               <Cards
                 title="Open-source Contributor"
