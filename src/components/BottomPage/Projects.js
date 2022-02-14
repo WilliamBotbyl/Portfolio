@@ -15,7 +15,7 @@ import { IconContext } from "react-icons";
 function Projects() {
   const calender = "https://github.com/WilliamBotbyl/Java-Calender";
   const calculator = "https://github.com/WilliamBotbyl/Tip-Calculator-Java";
-  const portfolio = "https://github.com/WilliamBotbyl/Portfolio/tree/master";
+  const myPortfolio = "https://github.com/WilliamBotbyl/Portfolio/tree/master";
   const sudokoSolver = "https://github.com/WilliamBotbyl/Sudoko-Solver";
   const seeMore = "https://github.com/WilliamBotbyl";
 
@@ -26,7 +26,7 @@ function Projects() {
     window.location.href = calculator;
   };
   const toPortfolio = () => {
-    window.location.href = portfolio;
+    window.location.href = myPortfolio;
   };
   const toSudoko = () => {
     window.location.href = sudokoSolver;
